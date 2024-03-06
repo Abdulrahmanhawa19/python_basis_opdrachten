@@ -7,7 +7,16 @@
 x = 1
 
 # Bereken y volgens de gegeven formule
-y = 4 * x**3 - 2 * x**2 - 1
+y = 4 * x**3 + 2 * x**2 + 2
 
-# Print de uitkomst
+# Geef de uitkomst weer
+print("De uitkomst is:", y)
+
+# Herhaal het proces voor andere waarden van x
+x = 2
+y = 4 * x**3 + 2 * x**2 + 5
+print("De uitkomst is:", y)
+
+x = 0
+y = 4 * x**3 + 2 * x**2 + 1
 print("De uitkomst is:", y)
