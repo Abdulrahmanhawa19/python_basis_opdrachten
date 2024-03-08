@@ -2,13 +2,13 @@
 # Naam student:
 # Groep:
 
-# Hier komt je code...
-for _ in range(5):
-    print("    *      " * 5)
-    print("   ***     " * 5)
-    print("  ******   " * 5)
-    print(" ********  " * 5)
-    print("***********" * 5)
-    print("    ***    " * 5)
-    print("    ***    " * 5)
-    print("    ***    " * 5)
+# Hier komt je co
+
+print("    *      " * 1)   
+print("   ***     " * 1)
+print("  ******   " * 1)
+print(" ********  " * 1)
+print("***********" * 1)
+print("    ***    " * 1)
+print("    ***    " * 1)
+print("    ***    " * 1)
