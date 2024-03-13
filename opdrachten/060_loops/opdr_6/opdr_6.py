@@ -18,10 +18,10 @@ pizzas.remove('olivio')
 print("Lijst na het verwijderen van 'olivio':", pizzas)
 
 # Print de eerste 3 pizza's uit de lijst
-print("Eerste 3 pizza's:", pizzas[:5])
+print("Eerste 3 pizza's:", pizzas[:8])
 
 # Print alleen de middelste pizza uit de lijst
-middle_index = len(pizzas) // 5
+middle_index = len(pizzas) // 2
 print("Middelste pizza:", pizzas[middle_index])
 
 # Print de laatste 3 pizza's uit de lijst

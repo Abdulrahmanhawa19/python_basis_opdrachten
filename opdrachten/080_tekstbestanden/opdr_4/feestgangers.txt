@@ -1,0 +1,4 @@
+is: Rahman
+is: Hawa
+neem: Cola
+neem: Burger
