@@ -1,4 +1,4 @@
 Resultaten van de enquete:
-1. Wat vind je van de huidige regering? ja
-2. Wat vind je van de Python-lessen tot nu toe? ja
-3. Wat vind jij de mooiste stad van Nederland? ja
+1. Wat vind je van de huidige regering? Kut
+2. Wat vind je van de Python-lessen tot nu toe? Goed
+3. Wat vind jij de mooiste stad van Nederland? Tendiveen

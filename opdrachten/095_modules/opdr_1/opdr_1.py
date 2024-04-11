@@ -7,23 +7,22 @@
 
 # my_modules/csv.py
 
-import csv
+from my_modules import csv_operations
 
-def write_to_csv(filename, data):
-    with open(filename, 'w', newline='') as file:
-        writer = csv.writer(file)
-        for row in data:
-            writer.writerow(row)
-# opdr_1.py
+def main():
+    # Example usage of the CSV module
+    file_name = 'data.csv'
 
-from my_modules import csv
+    # Writing data to a CSV file
+    data = [{'Name': 'Alice', 'Age': 30, 'City': 'New York'},
+            {'Name': 'Bob', 'Age': 25, 'City': 'Los Angeles'},
+            {'Name': 'Charlie', 'Age': 35, 'City': 'Chicago'}]
+    headers = ['Name', 'Age', 'City']
+    csv_operations.write_csv(file_name, data, headers)
 
-data = [
-    ['Name', 'Age', 'Country'],
-    ['John', 30, 'USA'],
-    ['Emily', 25, 'UK'],
-    ['David', 35, 'Canada']
-]
+    # Reading data from a CSV file
+    read_data = csv_operations.read_csv(file_name)
+    print(read_data)
 
-csv.write_to_csv('output.csv', data)
-print("Data has been written to output.csv")
+if __name__ == "__main__":
+    main()
